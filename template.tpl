@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -7,6 +7,11 @@ Google may provide), as modified from time to time.
 
 
 ___INFO___
+
+{
+  "displayName": "Remove Attribute from JSON",
+  "categories": ["ANALYTICS", "DATA_WAREHOUSING", "EXPERIMENTATION", "PERSONALIZATION", "UTILITY"]
+}
 
 {
   "type": "MACRO",
