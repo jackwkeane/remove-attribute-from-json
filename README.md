@@ -6,6 +6,12 @@ Create a new variable with this template. Choose a variable as input that holds 
 
 The variable will remove the key input (if neccessary) and returns the (changed) JSON object. 
 
+### Parameters
+Name | Description
+------------ | -------------
+JSON Object | Variable containing JSON object or valid JSON string.
+Name of attribute to remove | If attribute with this name is found in the JSON object, it will be removed and a new JSON object without the specified attribute will be returned. 
+
 ## General Example
 If the input consists of the following object or the corresponding JSON string:
 
