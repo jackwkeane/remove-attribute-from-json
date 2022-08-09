@@ -2,6 +2,6 @@
 homepage: "https://www.jackkeane.site/"
 versions:
   # Latest version
-  - sha: 745173bcc5c57ce9751dd019606e877e0aae13b60372fdb090f3db0470c3a43c
+  - sha: aebe96702dc9d188afcd3f1fb59b93f5e8500d2b
     changeNotes: Initial release.
 
