@@ -1,6 +1,9 @@
 # remove-attribute-from-json
 Remove attribute from JSON object if key exists and return resulting JSON (Custom Variable Template for Server-Side Google Tag Manager).
 
+### Purpose
+Removing attributes from a JSON can help deduplicate data.
+
 ## Using the Variable Template
 Create a new variable with this template. Choose a variable as input that holds an array or JSON object like "items" from event data or an extracted JSON string from a request parameter. Then type in the name of the attribute that you would like to remove from the JSON object. 
 
