@@ -31,9 +31,9 @@ height | height: [5, 10]
 age | age: 20
 
 # Example I
-JSON Input: *JSON object from previous example*
+JSON Object: *JSON object from previous example*
 
-Key: *features-and-qualities*
+Name of attribute to remove: *features-and-qualities*
 
 Expected JSON object returned:
 ```
@@ -45,9 +45,9 @@ Expected JSON object returned:
 ```
 
 # Example II
-JSON Input: *JSON object from previous example*
+JSON Object: *JSON object from previous example*
 
-Key: *name*
+Name of attribute to remove: *name*
 
 Expected JSON object returned:
 ```
@@ -63,9 +63,9 @@ Expected JSON object returned:
 ```
 
 # Example III
-JSON Input: *JSON object from previous example*
+JSON Object: *JSON object from previous example*
 
-Key: *name*
+Name of attribute to remove: *name*
 
 Expected JSON object returned:
 ```
