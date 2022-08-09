@@ -9,19 +9,12 @@ Google may provide), as modified from time to time.
 ___INFO___
 
 {
-  "displayName": "Remove Attribute from JSON",
-  "categories": ["ANALYTICS", "DATA_WAREHOUSING", "EXPERIMENTATION", "PERSONALIZATION", "UTILITY"]
-}
-
-{
   "type": "MACRO",
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
   "displayName": "Remove Attribute from JSON",
-  "categories": [
-    "UTILITY"
-  ],
+  "categories": ["ANALYTICS", "DATA_WAREHOUSING", "EXPERIMENTATION", "PERSONALIZATION", "UTILITY"],
   "description": "Removes JSON property that matches the value of the specified key and returns JSON. Only works for JSON objects that properties only contain arrays or strings.",
   "containerContexts": [
     "SERVER"
