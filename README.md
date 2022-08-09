@@ -17,7 +17,8 @@ If the input consists of the following object or the corresponding JSON string:
     "brown-hair",
     "20-years-old"
   ],
-  age: [20]
+  height: [5, 10]
+  age: 20
 }
 ```
 ... then the following key variables will remove the corresponding properties:
@@ -26,7 +27,8 @@ Key | Removed
 ------------ | -------------
 name | name: "keane"
 features-and-qualities | features-and-qualities: ["brown-eyes","brown-hair","20-years-old"]
-age | age: [20]
+height | height: [5, 10]
+age | age: 20
 
 # Example I
 JSON Input: *JSON object from previous example*
@@ -37,7 +39,8 @@ Expected JSON object returned:
 ```
 {
   name: "keane",
-  age: [20]
+  height: [5, 10],
+  age: 20
 }
 ```
 
@@ -54,7 +57,8 @@ Expected JSON object returned:
     "brown-hair",
     "20-years-old"
   ],
-  age: [20]
+  height: [5, 10],
+  age: 20
 }
 ```
 
@@ -71,6 +75,7 @@ Expected JSON object returned:
     "brown-eyes",
     "brown-hair",
     "20-years-old"
-  ]
+  ],
+  height: [5, 10]
 }
 ```
